@@ -11,7 +11,7 @@ export const profile = {
   roles: ['Frontend Developer', 'NLPer'],
   location: 'China · Shaanxi',
   affiliation: 'JAIST',
-  avatar: '/static/img/travel/th/thumb/chiangmai-2-1.jpg',
+  avatar: `${import.meta.env.BASE_URL}static/img/travel/th/thumb/chiangmai-2-1.jpg`,
   github: 'https://github.com/Tsuredur',
   email: 'magotsugeshikaru@gmail.com'
 }

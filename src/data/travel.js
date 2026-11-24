@@ -11,7 +11,7 @@ import { L } from '../i18n/index.js'
 //   title / text  shown under the enlarged photo; L('English', '中文', '日本語')
 //   video  optional mp4 — `src` is then used as its poster frame
 // Sizes and positions of the floating tiles are randomised (and stay the same per country).
-const IMG = '/static/img/travel'
+const IMG = `${import.meta.env.BASE_URL}static/img/travel`
 
 // ---- place names ----
 const P = {

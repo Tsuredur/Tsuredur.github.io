@@ -1,3 +1,5 @@
+const IMG = `${import.meta.env.BASE_URL}static/img`
+
 export const projectReports = {
   'mandarin-speech-envelope': {
     title: 'Investigation of Temporal Amplitude Envelope Information in Mandarin Speech',
@@ -16,14 +18,14 @@ export const projectReports = {
         'Conduct listening experiments with 5 native Mandarin speakers in a soundproof room.',
         'Participants label 50 samples each from original and vocoded speech.'
       ] },
-      { type: 'figure', src: '/static/img/noise_vocoded_process.png', caption: 'Figure 5: Schematic diagram of noise-vocoded speech synthesis' },
+      { type: 'figure', src: `${IMG}/noise_vocoded_process.png`, caption: 'Figure 5: Schematic diagram of noise-vocoded speech synthesis' },
 
       { type: 'heading', text: 'Experimental Results' },
       { type: 'figureGrid', items: [
-        { src: '/static/img/original_accuracy.png', caption: 'Figure 1: Accuracy of emotion recognition in original speech' },
-        { src: '/static/img/vocoded_accuracy.png', caption: 'Figure 2: Accuracy of emotion recognition in noise-vocoded speech' },
-        { src: '/static/img/original_confusion.png', caption: 'Figure 3: Emotion classification tendencies in original speech' },
-        { src: '/static/img/vocoded_confusion.png', caption: 'Figure 4: Emotion classification tendencies in vocoded speech' }
+        { src: `${IMG}/original_accuracy.png`, caption: 'Figure 1: Accuracy of emotion recognition in original speech' },
+        { src: `${IMG}/vocoded_accuracy.png`, caption: 'Figure 2: Accuracy of emotion recognition in noise-vocoded speech' },
+        { src: `${IMG}/original_confusion.png`, caption: 'Figure 3: Emotion classification tendencies in original speech' },
+        { src: `${IMG}/vocoded_confusion.png`, caption: 'Figure 4: Emotion classification tendencies in vocoded speech' }
       ] },
 
       { type: 'heading', text: 'Conclusion' },
