@@ -16,6 +16,7 @@ const router = createRouter({
     { path: '/project/:slug', name: 'project-detail', component: ProjectDetail, props: true },
     { path: '/blog', name: 'blog', component: Blog },
     { path: '/blog/:slug', name: 'blog-post', component: BlogPost, props: true },
+    { path: '/:pathMatch(.*)*', redirect: { name: 'intro' } },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) return savedPosition
