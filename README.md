@@ -1,5 +1,7 @@
 # 然.SHIKARU — personal homepage (Vue 3 SPA)
 
+Live site: https://tsuredur.github.io/
+
 Minimalist rebuild of the personal homepage: white/gray base, Vue green (#42b883)
 and orange (#ff6700) as the two accents. Built with Vue 3 + Vite + Vue Router.
 
